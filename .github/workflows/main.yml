@@ -36,7 +36,7 @@ jobs:
           mkdir .github/heroku
           git clone https://github.com/${{ secrets.HK }}.git hk
           mv hk/* .github/heroku
-          mkdir .gihtub/checkout
+          mkdir .gihtub/hkbuild
           git clone https://github.com/${{ secrets.HD }}.git hd
           mv hd/* .github/hkbuild
           rm -rf ck hk
